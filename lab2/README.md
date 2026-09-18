@@ -36,7 +36,7 @@
 
 ## 4. Оборудование и окружение
 
-**Вариант A (рекомендуется): [Google Colab]()**
+**Вариант A (рекомендуется): [Google Colab](https://colab.research.google.com/)**
 - Runtime → Change runtime type → T4 GPU (если доступен).
 - На CPU тоже работает, но медленнее.
 - MNIST/Fashion-MNIST загружаются автоматически.
@@ -55,7 +55,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Device:", device)
 ```
 
-**Шаблон ноутбука:** преподаватель выдаёт [lab2_template.ipynb]().
+**Шаблон ноутбука:** преподаватель выдаёт [lab2_template.ipynb](lab2/applications/lab2_template.ipynb).
 
 ---
 
@@ -618,7 +618,7 @@ plt.show()
 
 ---
 
-## 13. Приложение: `utils.py`
+## 13. Приложение: [utils.py](lab2/applications/utils.py)
 
 ```python
 import numpy as np
@@ -734,7 +734,7 @@ def set_seed(seed=42):
 
 ---
 
-## 14. Приложение: `requirements.txt`
+## 14. Приложение: [requirements.txt](lab2/applications/requirements.txt)
 
 ```txt
 torch>=2.0.0
