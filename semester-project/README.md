@@ -529,25 +529,24 @@ project-name/
 | ... | ... |
 
 ## Установка
-```bash
+
 pip install -r requirements.txt
-```
-```markdown
+
+
 ## Запуск
-```bash
+
 python src/train.py
 streamlit run app.py
-```
-```markdown
+
+
 ## Структура
-```
+
 project/
 ├── data/
 ├── notebooks/
 ├── src/
 └── results/
-```
-```markdown
+
 ## Отчёт и презентация
 - [report.pdf](report/report.pdf)
 - [slides.pdf](presentation/slides.pdf)
