@@ -38,7 +38,7 @@
 
 ## 4. Оборудование и окружение
 
-**Вариант A (рекомендуется): Google Colab**
+**Вариант A (рекомендуется): [Google Colab](https://colab.research.google.com/)**
 - Runtime → Change runtime type → T4 GPU.
 - BERT-base fine-tuning на 10K примеров: ~2–3 минуты на T4.
 - На CPU: ~30–40 минут — терпимо, но лучше GPU.
@@ -60,7 +60,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Device:", device)
 ```
 
-**Шаблон ноутбука:** преподаватель выдаёт `lab3_template.ipynb`.
+**Шаблон ноутбука:** преподаватель выдаёт [lab3_template.ipynb](lab3/applications/lab3_template.ipynb).
 
 ---
 
