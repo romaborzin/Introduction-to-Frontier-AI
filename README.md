@@ -36,7 +36,7 @@
 
 ## 4. Оборудование и окружение
 
-**Вариант A (рекомендуется): Google Colab**
+**Вариант A (рекомендуется): [Google Colab](https://colab.research.google.com/)**
 - Не требует установки.
 - GPU не нужен.
 - Достаточно аккаунта Google.
@@ -46,7 +46,7 @@
 pip install pandas scikit-learn matplotlib seaborn jupyter
 ```
 
-**Шаблон ноутбука:** преподаватель выдаёт `lab1_template.ipynb` со структурой и `# TODO`-ячейками.
+**Шаблон ноутбука:** преподаватель выдаёт [lab1_template.ipynb](applications/lab1_template.ipynb) со структурой и `# TODO`-ячейками.
 
 ---
 
@@ -379,7 +379,7 @@ pip install pandas scikit-learn matplotlib seaborn jupyter
 ---
 
 
-## 12. Приложение: вспомогательные функции (`utils.py`)
+## 12. Приложение: вспомогательные функции ([utils.py](applications/utils.py))
 
 
 ```python
@@ -489,7 +489,7 @@ def set_seed(seed=42):
 
 ---
 
-## 13. Приложение: `requirements.txt`
+## 13. Приложение: [requirements.txt](applications/requirements.txt)
 
 ```txt
 pandas>=2.0.0
