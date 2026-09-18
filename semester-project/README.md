@@ -547,7 +547,7 @@ project/
 ├── src/
 └── results/
 ```
-
+```
 ## Отчёт и презентация
 - [report.pdf](report/report.pdf)
 - [slides.pdf](presentation/slides.pdf)
