@@ -532,13 +532,13 @@ project-name/
 ```bash
 pip install -r requirements.txt
 ```
-
+```markdown
 ## Запуск
 ```bash
 python src/train.py
 streamlit run app.py
 ```
-
+```markdown
 ## Структура
 ```
 project/
@@ -547,7 +547,7 @@ project/
 ├── src/
 └── results/
 ```
-```
+```markdown
 ## Отчёт и презентация
 - [report.pdf](report/report.pdf)
 - [slides.pdf](presentation/slides.pdf)
