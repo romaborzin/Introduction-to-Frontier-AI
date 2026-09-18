@@ -46,7 +46,7 @@
 pip install pandas scikit-learn matplotlib seaborn jupyter
 ```
 
-**Шаблон ноутбука:** преподаватель выдаёт [lab1_template.ipynb](applications/lab1_template.ipynb) со структурой и `# TODO`-ячейками.
+**Шаблон ноутбука:** преподаватель выдаёт [lab1_template.ipynb](lab1/applications/lab1_template.ipynb) со структурой и `# TODO`-ячейками.
 
 ---
 
@@ -379,7 +379,7 @@ pip install pandas scikit-learn matplotlib seaborn jupyter
 ---
 
 
-## 12. Приложение: вспомогательные функции ([utils.py](applications/utils.py))
+## 12. Приложение: вспомогательные функции ([utils.py](lab1/applications/utils.py))
 
 
 ```python
@@ -489,7 +489,7 @@ def set_seed(seed=42):
 
 ---
 
-## 13. Приложение: [requirements.txt](applications/requirements.txt)
+## 13. Приложение: [requirements.txt](lab1/applications/requirements.txt)
 
 ```txt
 pandas>=2.0.0
